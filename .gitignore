@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+cache/
+
+# Data files
+data/
+*.csv
+*.parquet
+*.tab
+*.zip
+*.txt
+*.json
+*.geojson
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Config & secrets
+environment.yml
+
+# logs
+*.log
+
+# deprecated files
+\[dep\]*.*
+
+# literature & reports
+readings/
+reports/
