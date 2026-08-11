@@ -52,7 +52,7 @@ Each notebook has execution hints and the kernel dropdown points to the conda en
 
 ### Scripts
 
-The `scripts/` folder contains utility scripts and modules used by notebooks and experiments. Deprecated scripts prefixed with `[dep]` are omitted.
+The `scripts/` folder contains utility scripts and modules used by notebooks and experiments.
 
 - [scripts/cf_typology.py](scripts/cf_typology.py): Utilities for computing and applying the classification/typology used in analyses. Functions include grouping POI types, creating categorical mappings, and summary helpers.
 - [scripts/google_places_search.py](scripts/google_places_search.py): Thin wrapper around Google Places API calls used to search and retrieve place results. Includes retry logic, rate-limiting considerations, and helper functions to normalise API output for downstream processing.
