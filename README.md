@@ -28,11 +28,11 @@ conda env update -f environment.yml -n thesis-env
 
 Download the datasets from their original sources as linked and save them according to these names into the `data/` directory before running the notebooks. If you rename the data files, update the code where necessary.
 
-- Local Authority District boundaries (GeoJSON): [https://geoportal.statistics.gov.uk/datasets/local-authority-districts-december-2023-boundaries-uk-bfe-2/about](data/Local_Authority_Districts_December_2023_Boundaries_UK_BFE_7168133065712352501.geojson)
-- Output Areas (CSV): [https://geoportal.statistics.gov.uk/datasets/ons::output-areas-december-2021-boundaries-ew-bfc-v8/about](data/Output_Areas_2021_EW_BFC_V8_4917697649103143030.csv)
-- Output Area → Local Authority District lookup (CSV): [https://geoportal.statistics.gov.uk/datasets/83982ff4a8144038be52be65dd2b8fa0_0/explore](data/Output_Area_to_Local_Authority_District_(April_2023)_Lookup_in_England_and_Wales.csv)
-- OA population centroids (GeoJSON): [https://geoportal.statistics.gov.uk/datasets/558170d37ab04f34845034db91a86914_0/explore](data/OA_PopCentroids_EW_2021_V4.geojson)
-- UKPS 2023-2024 data archive: [https://datacatalogue.ukdataservice.ac.uk/studies/study/9350#details](data/UKDA-9350-tab)
+- Local Authority District boundaries (GeoJSON): [data/Local_Authority_Districts_December_2023_Boundaries_UK_BFE_7168133065712352501.geojson](https://geoportal.statistics.gov.uk/datasets/local-authority-districts-december-2023-boundaries-uk-bfe-2/about)
+- Output Areas (CSV): [data/Output_Areas_2021_EW_BFC_V8_4917697649103143030.csv](https://geoportal.statistics.gov.uk/datasets/ons::output-areas-december-2021-boundaries-ew-bfc-v8/about)
+- Output Area → Local Authority District lookup (CSV): [data/Output_Area_to_Local_Authority_District_(April_2023)_Lookup_in_England_and_Wales.csv](https://geoportal.statistics.gov.uk/datasets/83982ff4a8144038be52be65dd2b8fa0_0/explore)
+- OA population centroids (GeoJSON): [data/OA_PopCentroids_EW_2021_V4.geojson](https://geoportal.statistics.gov.uk/datasets/558170d37ab04f34845034db91a86914_0/explore)
+- UKPS 2023-2024 data archive: [data/UKDA-9350-tab](https://datacatalogue.ukdataservice.ac.uk/studies/study/9350#details)
 
 #### Intermediary saved data
 - Small helper/validation files used in examples: [data/manual_validation_sample_labelled.csv](data/manual_validation_sample_labelled.csv)
