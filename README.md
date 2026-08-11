@@ -1,8 +1,8 @@
-# Thesis repository
+# Thesis Repository for Master of Sociology (QASS) 2025/2026 at KU Leuven
 
-This repository contains data, analysis notebooks, and helper scripts for the thesis project. The notebooks live in the `research_notebooks/` folder and expect a conda environment created from `environment.yml` and several manually-downloaded datasets placed into the `data/` directory.
+This repository contains data, analysis notebooks, and helper scripts for my master thesis titled: **Cultural Accessibility and Participation - Examining Spatial Inequalities through the UK Participation Survey	KU Leuven - Universiteit**. The notebooks live in the `research_notebooks/` folder and expect a conda environment created from `environment.yml` and several manually-downloaded datasets placed into the `data/` directory.
 
-### Quick start**
+### Quick start
 
 - **Create environment:** `conda env create -f environment.yml -n thesis-env`
 - **Activate environment:** `conda activate thesis-env`
