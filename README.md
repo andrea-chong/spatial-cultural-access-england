@@ -24,25 +24,23 @@ If you modify or add packages later you can update the environment with:
 conda env update -f environment.yml -n thesis-env
 ```
 
-### Required data (manual downloads - TBC insert links to original datasources)
+### Required data
 
-Place the following datasets into the `data/` directory before running the notebooks. Files prefixed with `[dep]` are deprecated and should be ignored.
+Download the datasets from their original sources as linked and save them according to these names into the `data/` directory before running the notebooks. If you rename the data files, update the code where necessary.
 
-- Local Authority District boundaries (GeoJSON): [data/Local_Authority_Districts_December_2023_Boundaries_UK_BFE_7168133065712352501.geojson](data/Local_Authority_Districts_December_2023_Boundaries_UK_BFE_7168133065712352501.geojson)
-- Output Areas (CSV): [data/Output_Areas_2021_EW_BFC_V8_4917697649103143030.csv](data/Output_Areas_2021_EW_BFC_V8_4917697649103143030.csv)
-- Output Area → Local Authority District lookup (CSV): [data/Output_Area_to_Local_Authority_District_(April_2023)_Lookup_in_England_and_Wales.csv](data/Output_Area_to_Local_Authority_District_(April_2023)_Lookup_in_England_and_Wales.csv)
-- OA population centroids (GeoJSON): [data/OA_PopCentroids_EW_2021_V4.geojson](data/OA_PopCentroids_EW_2021_V4.geojson)
+- Local Authority District boundaries (GeoJSON): [https://geoportal.statistics.gov.uk/datasets/local-authority-districts-december-2023-boundaries-uk-bfe-2/about](data/Local_Authority_Districts_December_2023_Boundaries_UK_BFE_7168133065712352501.geojson)
+- Output Areas (CSV): [https://geoportal.statistics.gov.uk/datasets/ons::output-areas-december-2021-boundaries-ew-bfc-v8/about](data/Output_Areas_2021_EW_BFC_V8_4917697649103143030.csv)
+- Output Area → Local Authority District lookup (CSV): [https://geoportal.statistics.gov.uk/datasets/83982ff4a8144038be52be65dd2b8fa0_0/explore](data/Output_Area_to_Local_Authority_District_(April_2023)_Lookup_in_England_and_Wales.csv)
+- OA population centroids (GeoJSON): [https://geoportal.statistics.gov.uk/datasets/558170d37ab04f34845034db91a86914_0/explore](data/OA_PopCentroids_EW_2021_V4.geojson)
+- UKPS 2023-2024 data archive: [https://datacatalogue.ukdataservice.ac.uk/studies/study/9350#details](data/UKDA-9350-tab)
 
 #### Intermediary saved data
 - Small helper/validation files used in examples: [data/manual_validation_sample_labelled.csv](data/manual_validation_sample_labelled.csv)
 - Pilot LAD (small GeoJSON): [data/pilot_lad.geojson](data/pilot_lad.geojson)
-- UK Data Archive extract (tab folder): [data/UKDA-9350-tab](data/UKDA-9350-tab)
-
-If any of the above are missing, the notebooks will indicate which file is required. Where possible the notebooks include small sample files under `data/` for quicker tests, but for full analyses you must supply the official datasets as listed above.
 
 ### Research notebooks
 
-All notebooks are in the [research_notebooks](research_notebooks) folder. Deprecated notebooks are prefixed with `[dep]` and are not described below.
+All notebooks are in the [research_notebooks](research_notebooks) folder.
 
 - [research_notebooks/01_google_places_new_data_collection.ipynb](research_notebooks/01_google_places_new_data_collection.ipynb): Collects and aggregates new Google Places data for points-of-interest. Includes rate-limited API collection routines and initial quality checks.
 - [research_notebooks/02_eda_validation.ipynb](research_notebooks/02_eda_validation.ipynb): Exploratory data analysis and validation of the collected place data against ground truth and known metadata; produces summary tables and diagnostic plots used in the report.
